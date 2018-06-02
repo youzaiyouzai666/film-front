@@ -1,29 +1,24 @@
 <template>
+<div>
   <section class="container">
-    <div>
-      <Header/>
+    <div class="banner-wrap">
+      <a target="_top" href="/" ></a>
     </div>
   </section>
+  <section class="center-wrap">
+      
+  </section>
+</div>
 </template>
 
-<script>
-import Header from '~/components/Header.vue'
-
-export default {
-  components: {
-    Header
+<style scoped>
+  .banner-wrap{
+    display: block;
+    height: 360px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(//gw.alicdn.com/tfs/TB1GRxRfZLJ8KJjy0FnXXcFDpXa-1920-360.jpg);
   }
-}
-</script>
-
-<style>
-/*.container {*/
-  /*min-height: 100vh;*/
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
-  /*text-align: center;*/
-/*}*/
-
 
 </style>

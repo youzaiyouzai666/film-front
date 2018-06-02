@@ -13,6 +13,10 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  css: [
+    // 项目中的 Sass 文件
+    { src: '~assets/css/main.scss', lang: 'scss' } // 指定 scss 而非 sass
+  ],
   /*
   ** Customize the progress bar color
   */
