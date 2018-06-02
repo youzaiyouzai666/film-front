@@ -14,7 +14,7 @@
 <style scoped >
     .nav {
         width: 100%;
-        border: 1px solid;
+        /* border: 1px solid; */
     }
     .logo {
         display: inline-block;
